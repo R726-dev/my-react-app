@@ -6,26 +6,7 @@ import feedbackData from '../Data/feedbackData'
 
  export const FeedbackProvider = ({ children }) => {
     const [feedback, setFeedback] = useState(feedbackData
-        //[ {
-        //     // id: 1,
-        //     // text: 'This is the Feedback item 1',
-        //     // rating: 10,
-        // },
-        // {
-        //     id: 2,
-        //     text: 'This is the Feedback item 2',
-        //     rating: 6,
-        // },
-        // {
-        //     id: 3,
-        //     text: 'This is the Feedback item 3',
-        //     rating: 7,
-        // },
-        // {
-        //     id: 1,
-        //     text:'This is the Feedback item 4',
-        //     rating: 2,
-        // }]
+        
     )
     const[feedbackEdit,setFeedbackEdit]=useState({
         item:{},

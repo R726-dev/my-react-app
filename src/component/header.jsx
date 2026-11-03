@@ -15,9 +15,6 @@ function header({ text,bgColor,textColor}) {
     
   );
 }
-// header.defaultProps={
-//     text:"Hello World!",
-// };
 
 header.defaultProps={
     text:"Feedback UI",

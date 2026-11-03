@@ -30,23 +30,6 @@ export default function feedbackList() {
      
     </div>
     )
-  // return (
-
-
-    // <div className='feedback-list'>
-    //     {feedback.map((item)=>(<FeedbackItem key={item.id} item={item} handleDelete={handleDelete} />))}
-        
-     
-     
-    // </div>
-    
-  // )
-
-  // feedbackList.propTypes={
-  //   feedback:PropTypes.arrayOf(PropTypes.shape({
-  //     id:PropType.number.isRequired,
-  //     text:PropTypes.string.isRequired,
-  //     rating:PropTypes.number.isRequired
-    // }))
+  
   }
 
