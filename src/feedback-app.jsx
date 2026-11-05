@@ -1,9 +1,6 @@
 import Header from './component/header'
 import FeedbackItem from './component/FeedbackItem'
-
-
 import Feedbacklist from './component/feedbackList'
-
 import Card from './component/shared/card'
 import Feedbackstat from './component/Feedbackstat'
 import Feedbackform from './component/Feedbackform'

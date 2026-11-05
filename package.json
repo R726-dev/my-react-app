@@ -3,17 +3,21 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "proxy": "http://localhost:5173",
+  "proxy": "http://localhost:5000",
   "homepage": "https://r726-dev.github.io/my-react-app/",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-"deploy": "gh-pages -d dist"
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  "server": "json-server --watch db.json --port 5000",
+  "start": "concurrently \"npm run dev\" \"npm run server\""
+
   },
   "dependencies": {
+    "concurrently": "^10.0.6",
     "framer-motion": "^4.1.17",
     "prop-types": "^15.8.1",
     "react": "^19.2.8",

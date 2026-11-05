@@ -1,0 +1,25 @@
+{
+  "feedback": [
+    {
+      "id": "2",
+      "rating": 5,
+      "text": "This is the feedback item 2 from the backend "
+    },
+    {
+      "rating": 10,
+      "text": "this is the feedback item",
+      "id": "T73CeiJn42I"
+    },
+    {
+      "text": "Hello! Welcome to the  React App",
+      "rating": 10,
+      "id": "sFgMqWK0tWg"
+    },
+    {
+      "text": "Hii! Welcome to the Website",
+      "rating": 3,
+      "id": "vNm6cnfBBEo"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
